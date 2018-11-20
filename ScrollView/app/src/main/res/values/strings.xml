@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ScrollView</string>
+    <string-array name='makanan'>
+        <item>Uduk</item>
+        <item>Pecel</item>
+        <item>Susu Novia</item>
+        <item>Lele</item>
+        <item>Wingko</item>
+    </string-array>
+</resources>

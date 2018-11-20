@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nashir.radiobutton.radioButton">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Hello World!!"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="13dp"
+        tools:layout_editor_absoluteX="-88dp"
+        app:layout_constraintHorizontal_bias="0.502" />
+
+    <RadioGroup
+        android:id="@+id/Rcontaner"
+        android:layout_width="141dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteY="53dp">
+
+        <RadioButton
+            android:id="@+id/rBl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LEFT" />
+
+        <RadioButton
+            android:id="@+id/rBc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CENTER" />
+
+        <RadioButton
+            android:id="@+id/rBr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RIGHT" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="194dp"
+        android:layout_height="52dp"
+        android:text="Ganti Text"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <CheckBox
+        android:id="@+id/CBm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miring"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <CheckBox
+        android:id="@+id/CBb"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:text="Bold"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/CBm"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="306dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="179dp"
+        android:layout_height="164dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn" />
+</android.support.constraint.ConstraintLayout>

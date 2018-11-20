@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Soccer Score App</string>
+    <string name="reset">reset</string>
+    <string name="add_fouls">add fouls</string>
+    <string name="add_score">add Score</string>
+    <string name="b">B</string>
+    <string name="fouls">Fouls:</string>
+    <string name="_0">0</string>
+    <string name="score">Score:</string>
+    <string name="a">A</string>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ListView</string>
+
+    <string-array name='negara'>
+        <item>Indonesia</item>
+        <item>Malaysia</item>
+        <item>Amerika</item>
+        <item>Jepang</item>
+        <item>Perancis</item>
+    </string-array>
+    <string-array name='keunikan'>
+        <item>Bhineka</item>
+        <item>Upin dan Ipin</item>
+        <item>Donald Trump</item>
+        <item>Miyabi</item>
+        <item>Eiffel</item>
+    </string-array>
+    <string-array name="music">
+        <item>Dangdut</item>
+        <item>Jazz</item>
+        <item>Kerncong</item>
+        <item>Klasik</item>
+        <item>R and B</item>
+        <item>Rock</item>
+        <item>Seriosa</item>
+        <item>Slow</item>
+    </string-array>
+</resources>

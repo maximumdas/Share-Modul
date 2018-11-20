@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AlertDialog</string>
+    <string-array name="makanan">
+        <item>potpie</item>
+        <item>tuna</item>
+        <item>fishes</item>
+        <item>meat</item>
+        <item>vegetables</item>
+    </string-array>
+</resources>

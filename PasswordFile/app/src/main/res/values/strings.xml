@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PasswordFile</string>
+    <string-array name="negara">
+        <item>aa@gmail.com</item>
+        <item>Amerika@gmail.com</item>
+        <item>Australia@gmail.com</item>
+        <item>Macedonia@yahoo.com</item>
+        <item>Arabia@yahoo.com</item>
+        <item>Kazakhsthan@yahoo.com</item>
+        <item>Timor-timor@gmail.com</item>
+    </string-array>
+</resources>

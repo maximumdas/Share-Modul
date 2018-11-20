@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Hello Nashir!!"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/text_hello_nashir"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kembali"
+        android:id="@+id/button_kembali"
+        android:background="@android:color/holo_orange_light"/>
+</LinearLayout>
